@@ -1,0 +1,16 @@
+C:\ProjectsCLR\SampleAsyncAwait\bin\Debug\net5.0\SampleAsyncAwait.exe
+C:\ProjectsCLR\SampleAsyncAwait\bin\Debug\net5.0\SampleAsyncAwait.deps.json
+C:\ProjectsCLR\SampleAsyncAwait\bin\Debug\net5.0\SampleAsyncAwait.runtimeconfig.json
+C:\ProjectsCLR\SampleAsyncAwait\bin\Debug\net5.0\SampleAsyncAwait.runtimeconfig.dev.json
+C:\ProjectsCLR\SampleAsyncAwait\bin\Debug\net5.0\SampleAsyncAwait.dll
+C:\ProjectsCLR\SampleAsyncAwait\bin\Debug\net5.0\ref\SampleAsyncAwait.dll
+C:\ProjectsCLR\SampleAsyncAwait\bin\Debug\net5.0\SampleAsyncAwait.pdb
+C:\ProjectsCLR\SampleAsyncAwait\obj\Debug\net5.0\SampleAsyncAwait.csprojAssemblyReference.cache
+C:\ProjectsCLR\SampleAsyncAwait\obj\Debug\net5.0\SampleAsyncAwait.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjectsCLR\SampleAsyncAwait\obj\Debug\net5.0\SampleAsyncAwait.AssemblyInfoInputs.cache
+C:\ProjectsCLR\SampleAsyncAwait\obj\Debug\net5.0\SampleAsyncAwait.AssemblyInfo.cs
+C:\ProjectsCLR\SampleAsyncAwait\obj\Debug\net5.0\SampleAsyncAwait.csproj.CoreCompileInputs.cache
+C:\ProjectsCLR\SampleAsyncAwait\obj\Debug\net5.0\SampleAsyncAwait.dll
+C:\ProjectsCLR\SampleAsyncAwait\obj\Debug\net5.0\ref\SampleAsyncAwait.dll
+C:\ProjectsCLR\SampleAsyncAwait\obj\Debug\net5.0\SampleAsyncAwait.pdb
+C:\ProjectsCLR\SampleAsyncAwait\obj\Debug\net5.0\SampleAsyncAwait.genruntimeconfig.cache
