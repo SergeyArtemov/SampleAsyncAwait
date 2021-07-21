@@ -6,10 +6,10 @@ namespace SampleAsyncAwait
 {
     class Program
     {
-        static void Factorial()
+        static void Factorial(int x = 6)
         {
             int result = 1;
-            for(int i=1; i<=6; i++)
+            for(int i=1; i<=x; i++)
             {
                 result *= i;
             }
@@ -25,6 +25,24 @@ namespace SampleAsyncAwait
             await Task.Run(() => Factorial());// выполняется асинхронно
             
             Console.WriteLine("Конец метода FactorialAsync");
+        }
+
+        static async void FactorialAsyncInSeries()
+        {
+            //Выполняется последовательно
+            await Task.Run(() => Factorial(4));
+            await Task.Run(() => Factorial(3));
+            await Task.Run(() => Factorial(5));
+        }
+
+        static async void FactorialAsyncInParalell()
+        {
+            //Выполняется паралелльно
+            Task t1 = Task.Run(() => Factorial(4));
+            Task t2 = Task.Run(() => Factorial(3));
+            Task t3 = Task.Run(() => Factorial(5));
+            //await Task.WhenAll(new[] { t1, t2, t3 });
+            await Task.WhenAll(new Task[] { t1, t2, t3 });
         }
 
         static void Main(string[] args)
